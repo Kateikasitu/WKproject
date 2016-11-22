@@ -1,5 +1,5 @@
 
-command! -nargs=0 Dark :call Dark()
+command! -nargs=0 Dark call Dark()
 function! Dark()
 
 let line = getline(".") 
